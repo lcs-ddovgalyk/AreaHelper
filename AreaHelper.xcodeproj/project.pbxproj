@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B93C5A8623610DD300020F45 /* RectangleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93C5A8523610DD300020F45 /* RectangleViewController.swift */; };
 		B947740E2361EDB400C353C5 /* TriangleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B947740D2361EDB400C353C5 /* TriangleViewController.swift */; };
+		B94774102361EFAF00C353C5 /* CircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B947740F2361EFAF00C353C5 /* CircleViewController.swift */; };
 		B950B060236107A400082661 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B950B05F236107A400082661 /* AppDelegate.swift */; };
 		B950B062236107A400082661 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B950B061236107A400082661 /* MainViewController.swift */; };
 		B950B065236107A400082661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B950B063236107A400082661 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		B93C5A8523610DD300020F45 /* RectangleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleViewController.swift; sourceTree = "<group>"; };
 		B947740D2361EDB400C353C5 /* TriangleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleViewController.swift; sourceTree = "<group>"; };
+		B947740F2361EFAF00C353C5 /* CircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewController.swift; sourceTree = "<group>"; };
 		B950B05C236107A400082661 /* AreaHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AreaHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B950B05F236107A400082661 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B950B061236107A400082661 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				B950B06B236107AF00082661 /* Info.plist */,
 				B93C5A8523610DD300020F45 /* RectangleViewController.swift */,
 				B947740D2361EDB400C353C5 /* TriangleViewController.swift */,
+				B947740F2361EFAF00C353C5 /* CircleViewController.swift */,
 			);
 			path = AreaHelper;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			files = (
 				B947740E2361EDB400C353C5 /* TriangleViewController.swift in Sources */,
 				B950B062236107A400082661 /* MainViewController.swift in Sources */,
+				B94774102361EFAF00C353C5 /* CircleViewController.swift in Sources */,
 				B93C5A8623610DD300020F45 /* RectangleViewController.swift in Sources */,
 				B950B060236107A400082661 /* AppDelegate.swift in Sources */,
 			);
