@@ -8,35 +8,46 @@
 
 import UIKit
 
-class TriangleViewController: UIViewController {
+class RectangleViewController: UIViewController {
     
+    
+    @IBOutlet weak var labelOutput: UILabel!
+
     @IBOutlet weak var l: UITextField!
     @IBOutlet weak var w: UITextField!
-    @IBOutlet weak var labelOutput: UILabel!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
         
+        // Do any additional setup after loading the view.
     }
+    func areaOfRectangle(length: Double, width: Double) -> Double {
+        return length * width
+   
 
-    func areaOfTriangle(length: Double, width: Double) -> Double {
-        return (length * width)/2
-        
     }
-    
-    
     @IBAction func calculateTheArea(_ sender: Any) {
+  
         
+     
         let enteredWidth = w.text!
         let enteredLength = l.text!
         let numberWidth = Double(enteredWidth)!
         let numberLength = Double(enteredLength)!
-        let area = areaOfTriangle(length: numberLength, width: numberWidth)
-        labelOutput.text = "Area of the Triangle is \(area) "
+        labelOutput.text = "Area of the Rectangle is \(areaOfRectangle(length: numberLength, width: numberWidth))"
+        
+        
+        
+        
+        
     }
     
-   
+
+  
+    
+    	
+    
 }
 
 
